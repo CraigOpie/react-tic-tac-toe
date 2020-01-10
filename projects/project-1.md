@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: flightplan
+permalink: projects/flightplan
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-11-04
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Python
+  - GUI
+summary: Freelance project for a worker at the Sydney Airport.  I wrote an application usign PySide 2.0 (QT based GUI) that streamlines and automates airline flight plan revisions and packaged it for use as an .exe file.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +19,13 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Flight Plan is a freelance project that was solicitated via reddit.  A worker at the Sydney Airport was responsible for manually reviewing revisions to flight plans and updating the master flight plan file.  If the revisions were not properly implemented into the master flight plan file, the airline would incurr delayed departures and/or pilots would not be able to utilize the autopilot features of the plane.  The worker was not familiar with command line functions and was working with a Windows OS.  
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project, I had to interview the worker to discover his current process for handling flight plan revisions, what the minimum functionality of the application needed to be, and what his desires were for the application.  This project required me to do research on the airline's systems to become comfortable with identifying the required changes to the master file. The worker specifically requested Python as the development language. 
 
-Here is some code that illustrates how we read values from the line sensors:
+After gathering all information I sketched out a "software map" identifying the processes required to accomplish the task.  This allowed me to evaluate the most streamlined methods of memory access and determining where hash maps should be used to speed up data integration.  Once the functionality plan was established to meet the minimum requirements, I designed the GUI to provide working information to the user while allowing "minimal click" interactions to complete the required tasks.  After coordinating demonstration evaluations with the worker, I packaged the application using py2exe so the software would work regardless of the system's Python version/updates. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+The worker was very pleased with the final product which saves the worker approximately one hour of manual labor each day, improves the reliability of the flight plan revision process, and improves the airline's reliability and scheduling.
 
 
 
