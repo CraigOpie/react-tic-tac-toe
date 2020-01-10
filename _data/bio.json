@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Craig Opie",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/template/images/sq_portrait.png",
+    "email": "opieca@hawaii.edu",
+    "phone": "407-916-9576",
+    "website": "https://craigopie.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2021.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "Kaka'ako",
+      "postalCode": "96813",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,42 +17,22 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "CraigOpie",
+        "url": "http://github.com/CraigOpie"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "CraigOpie",
+        "url": "http://linkedin.com/in/craig-opie-90a98553"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "satellites",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
+        "cubesat",
+        "smallsat"
       ]
     }
   ],
@@ -61,12 +41,16 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "Python",
+        "Assembly",
         "C",
         "C++",
+        "C#",
+        "Objectvie C", 
+        "Swift",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Visual Basic"
       ]
     },
     {
@@ -75,89 +59,58 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2018-09-01",
       "endDate": "Present",
-      "gpa": "",
-      "courses": [
-      ]
+      "gpa": "3.76"
+    },
+    {
+      "institution": "Naval Nuclear Power Training Command, Charleston, SC",
+      "area": "Nuclear Engineering",
+      "studyType": "Trade",
+      "startDate": "2004-08-24",
+      "endDate": "2006-05-06",
+      "gpa": "3.18"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Death Star Developments, LLC",
+      "position": "CEO",
+      "website": "https://deathstardev.com",
+      "startDate": "2019-05-20",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "summary": "Service Disabled Veteran Owned Small Business for Aerospace Applications"
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "company": "US Navy",
+      "position": "Chief Reactor Operator (Submarines)",
+      "website": "https://www.navy.com/nuclear",
+      "startDate": "2004-08-24",
+      "endDate": "2018-08-28",
+      "summary": ""
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "American Red Cross",
+      "website": "https://www.redcross.org/",
+      "position": "Public Affairs",
+      "startDate": "2012-06-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Red Cross Disaster Public Affairs Efforts",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Professionally trained in public affairs communication techniques",
+        "Assist in Amateur Radio operations as required"
       ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [
