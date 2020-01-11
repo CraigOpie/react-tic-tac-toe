@@ -19,8 +19,9 @@ This project is comprised of two Arduino Sketchs that I created for the NASA Stu
 
 Our team placed 9th out of 45 academic institutions and received the "Rookie of the Year" Award as being the best performance from a first time attending team.
  
-News: 
+News:<br />
 <a href="https://www.youtube.com/watch?v=1oqxiB8lYZA">Wake Up 2Day - Interview</a><br />
 <a href="https://www.hawaii.edu/news/2019/05/16/project-imua-nasa-rookie-award/">UH News - Results</a>
 
-Source: <a href="https://github.com/CraigOpie/project-imua"><i class="large github icon"></i>CraigOpie/project-imua</a>
+Source:<br />
+<a href="https://github.com/CraigOpie/project-imua"><i class="large github icon"></i>CraigOpie/project-imua</a>
