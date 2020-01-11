@@ -2,24 +2,25 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
+title: NASA Student Launch Project
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-02-21
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Arduino
+  - Sketch
+  - C
+summary: Arduino applications for a rover and deployment mechanism built for the NASA Student Launch Project 2019.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This project is comprised of two Arduino Sketchs that I created for the NASA Student Launch Project, Spring 2019. The event consisted of building a rover as a payload in a rocket that went to an altitude of 5,000 feet, then deploy the rover after it is safely on the ground, and moving at least 10 feet from the landing site to collect a 10 mL soil sample.  The project helped me learn how to design and implement an Arduino Sketch to communicate via XBee radios, drive dc motors, and use ultra sonic sensors to prevent object collisions.  
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+Our team placed 9th out of 45 academic institutions and received the "Rookie of the Year" Award as being the best performance from a first time attending team.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+News: 
+<a href="https://www.youtube.com/watch?v=1oqxiB8lYZA">Wake Up 2Day - Interview</a>
+<a href="https://www.hawaii.edu/news/2019/05/16/project-imua-nasa-rookie-award/">UH News - Results</a>
+
+Source: <a href="https://github.com/CraigOpie/project-imua"><i class="large github icon"></i>CraigOpie/project-imua</a>
