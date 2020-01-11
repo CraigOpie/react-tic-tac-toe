@@ -12,6 +12,8 @@ labels:
 summary: Freelance project for a worker at the Sydney Airport.  I wrote an application usign PySide 2.0 (QT based GUI) that streamlines and automates airline flight plan revisions and packaged it for use as an exe file.
 ---
 
+<img class="ui medium right floated rounded image" src="../images/flightplan.png">
+
 Flight Plan is a freelance project that was solicitated via reddit.  A worker at the Sydney Airport was responsible for manually reviewing revisions to flight plans and updating the master flight plan file.  If the revisions were not properly implemented into the master flight plan file, the airline would incurr delayed departures and/or pilots would not be able to utilize the autopilot features of the plane.  The worker was not familiar with command line functions and was working with a Windows OS.  
 
 For this project, I had to interview the worker to discover his current process for handling flight plan revisions, what the minimum functionality of the application needed to be, and what his desires were for the application.  This project required me to do research on the airline's systems to become comfortable with identifying the required changes to the master file. The worker specifically requested Python as the development language. 
