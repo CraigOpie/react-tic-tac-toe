@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/flightplan.png
 title: flightplan
 permalink: projects/flightplan
 # All dates must be YYYY-MM-DD format!
