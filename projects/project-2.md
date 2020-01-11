@@ -3,6 +3,7 @@ layout: project
 type: project
 image: images/TeamPhoto.jpg
 title: NASA Student Launch Project
+permalink: projects/project-imua
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
 labels:
