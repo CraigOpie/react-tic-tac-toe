@@ -9,15 +9,8 @@ date: 2018-11-04
 labels:
   - Python
   - GUI
-summary: Freelance project for a worker at the Sydney Airport.  I wrote an application usign PySide 2.0 (QT based GUI) that streamlines and automates airline flight plan revisions and packaged it for use as an .exe file.
+summary: Freelance project for a worker at the Sydney Airport.  I wrote an application usign PySide 2.0 (QT based GUI) that streamlines and automates airline flight plan revisions and packaged it for use as an exe file.
 ---
-
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
 
 Flight Plan is a freelance project that was solicitated via reddit.  A worker at the Sydney Airport was responsible for manually reviewing revisions to flight plans and updating the master flight plan file.  If the revisions were not properly implemented into the master flight plan file, the airline would incurr delayed departures and/or pilots would not be able to utilize the autopilot features of the plane.  The worker was not familiar with command line functions and was working with a Windows OS.  
 
