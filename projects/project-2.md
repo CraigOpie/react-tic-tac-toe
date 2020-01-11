@@ -23,5 +23,4 @@ News:<br />
 <a href="https://www.youtube.com/watch?v=1oqxiB8lYZA">Wake Up 2Day - Interview</a><br />
 <a href="https://www.hawaii.edu/news/2019/05/16/project-imua-nasa-rookie-award/">UH News - Results</a>
 
-Source:<br />
-<a href="https://github.com/CraigOpie/project-imua"><i class="large github icon"></i>CraigOpie/project-imua</a>
+Source: <a href="https://github.com/CraigOpie/project-imua"><i class="large github icon"></i>CraigOpie/project-imua</a>
