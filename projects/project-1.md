@@ -20,5 +20,5 @@ After gathering all information I sketched out a "software map" identifying the 
 
 The worker was very pleased with the final product which saves the worker approximately one hour of manual labor each day, improves the reliability of the flight plan revision process, and improves the airline's reliability and scheduling.
 
-
+Source: <a href="https://github.com/CraigOpie/flightplan"><i class="large github icon"></i>CraigOpie/flightplan</a>
 
