@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/eps.png
+image: images/sm_eps.png
 title: Electronic Power Supply (EPS)
 permalink: projects/eps
 # All dates must be YYYY-MM-DD format!
